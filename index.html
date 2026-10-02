@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nikita Mall — Computer Science Engineering student, MERN Stack & Python/Django developer.">
+  <title>Nikita Mall | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a class="logo" href="#home" aria-label="Nikita Mall home">
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg-orb orb-one"></div>
+      <div class="hero-bg-orb orb-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <h1>Hi, I'm <span class="gradient-text">Nikita Mall</span></h1>
+          <h2>I build <span id="typingText"></span><span class="typing-cursor">|</span></h2>
+          <p class="hero-text">
+            Computer Science Engineering student with hands-on experience in MERN Stack
+            and Python with Django. I enjoy building practical, user-focused web applications
+            and strengthening my problem-solving skills with Data Structures & Algorithms.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work <span>↗</span></a>
+            <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+          </div>
+
+          <div class="quick-stats">
+            <div><strong>7.9</strong><span>CGPA</span></div>
+            <div><strong>3rd</strong><span>Project Competition</span></div>
+            <div><strong>3+</strong><span>Major Projects</span></div>
+          </div>
+        </div>
+          <div class="photo-wrap">
+            <div class="photo-ring"></div>
+            <img src="profile.jpg" alt="Nikita Mall">
+            <div class="floating-badge badge-top">⚡ MERN</div>
+            <div class="floating-badge badge-bottom">🐍 Python</div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-down" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>Turning ideas into <span class="gradient-text">working products.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass reveal">
+            <div class="about-icon">✦</div>
+            <h3>Who I am</h3>
+            <p>
+              I am a Computer Science Engineering student at Buddha Institute of Technology,
+              Gorakhpur. I like learning by building projects and solving coding problems.
+              My current focus is strengthening Python, DSA, MERN development and core CS concepts.
+            </p>
+            <p>
+              I am looking for opportunities where I can apply my technical skills, learn from
+              experienced developers and contribute to real-world projects.
+            </p>
+          </div>
+
+          <div class="about-timeline reveal">
+            <div class="mini-timeline">
+              <span class="timeline-dot"></span>
+              <div><strong>B.Tech CSE</strong><small>2023 — 2027 · Buddha Institute of Technology</small></div>
+            </div>
+            <div class="mini-timeline">
+              <span class="timeline-dot"></span>
+              <div><strong>MER﻿N + AI Integration Training</strong><small>June — July 2026 · Buddha Institute of Technology</small></div>
+            </div>
+            <div class="mini-timeline">
+              <span class="timeline-dot"></span>
+              <div><strong>Python with Django Training</strong><small>Techpile Technology Pvt. Ltd. · 2022 — 2023</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>My <span class="gradient-text">toolkit.</span></h2>
+          <p>Technologies and concepts I use while learning and building.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">⌘</div><h3>Frontend</h3>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span><span>React.js</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">⚙</div><h3>Backend</h3>
+            <div class="chips"><span>Node.js</span><span>Express.js</span><span>Python</span><span>Django</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">◈</div><h3>Database</h3>
+            <div class="chips"><span>MongoDB</span><span>SQL</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">λ</div><h3>Programming</h3>
+            <div class="chips"><span>Python</span><span>JavaScript</span><span>OOP</span><span>DSA</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">↯</div><h3>Concepts</h3>
+            <div class="chips"><span>REST API</span><span>JWT Auth</span><span>CRUD</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">⌁</div><h3>Tools</h3>
+            <div class="chips"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>Things I've <span class="gradient-text">built.</span></h2>
+          <p>Real projects that show my learning, development and problem-solving journey.</p>
+        </div>
+
+        <div class="filter-bar reveal" role="tablist">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="django">Python / Django</button>
+          <button class="filter-btn" data-filter="mern">MERN</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal" data-category="django">
+            <div class="project-top"><span class="project-number">01</span><span class="project-type">Python · Django</span></div>
+            <h3>Interview Preparation Platform</h3>
+            <p>A platform for technical, HR and aptitude interview preparation with structured resources and practice.</p>
+            <ul><li>Technical, HR & aptitude resources</li><li>Database-driven content</li><li>Designed for placement preparation</li></ul>
+            <div class="project-tags"><span>Python</span><span>Django</span><span>SQLite</span></div>
+            <button class="project-link" data-project="interview">View details <span>→</span></button>
+          </article>
+
+          <article class="project-card reveal" data-category="mern">
+            <div class="project-top"><span class="project-number">02</span><span class="project-type">MERN Stack</span></div>
+            <h3>AI-Assisted Virtual Counsellor</h3>
+            <p>A web-based virtual counselling application using a MERN-oriented architecture and AI-assisted interaction.</p>
+            <ul><li>JWT-based authentication</li><li>RESTful APIs</li><li>MongoDB database integration</li></ul>
+            <div class="project-tags"><span>React</span><span>Node</span><span>Express</span><span>MongoDB</span></div>
+            <button class="project-link" data-project="counsellor">View details <span>→</span></button>
+          </article>
+
+          <article class="project-card reveal" data-category="mern">
+            <div class="project-top"><span class="project-number">03</span><span class="project-type">MERN Stack</span></div>
+            <h3>CivicSenseAI</h3>
+            <p>An AI-based public complaint management platform designed to help citizens report and track civic issues.</p>
+            <ul><li>Citizen, officer & admin dashboards</li><li>Complaint tracking and management</li><li>JWT authentication</li></ul>
+            <div class="project-tags"><span>React</span><span>Express</span><span>MongoDB</span><span>JWT</span></div>
+            <button class="project-link" data-project="civic">View details <span>→</span></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>Learning through <span class="gradient-text">experience.</span></h2>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-item reveal">
+            <div class="experience-marker"></div>
+            <div class="experience-content">
+              <h3>MERN Stack with AI Integration</h3>
+              <p class="company">Offline Training · Buddha Institute of Technology</p>
+              <p>Completed hands-on training in MongoDB, Express.js, React.js and Node.js. Built full-stack applications using REST APIs, CRUD operations, Git and GitHub, and explored AI integration.</p>
+            </div>
+          </article>
+
+          <article class="experience-item reveal">
+            <div class="experience-marker"></div>
+            <div class="experience-content">
+              <h3>Python with Django</h3>
+              <p class="company">Techpile Technology Pvt. Ltd., Lucknow</p>
+              <p>Completed training in Python and Django and developed a web application. Worked with Django models, views, templates, CRUD operations and SQL database integration.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievements" id="achievements">
+      <div class="container">
+        <div class="achievement-box reveal">
+          <div>
+  
+            <h2>Small milestones. <span class="gradient-text">Big motivation.</span></h2>
+          </div>
+          <div class="achievement-items">
+            <div class="achievement"><span>🏆</span><div><strong>3rd Place</strong><p>Tech Yuva Annual Technical Competition (2025)</p></div></div>
+            <div class="achievement"><span>🚀</span><div><strong>Smart India Hackathon 2025</strong><p>Participated in college/internal round</p></div></div>
+            <div class="achievement"><span>🎓</span><div><strong>B.Tech CSE</strong><p>Current CGPA: 7.9 / 10.0</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-copy">
+           
+            <h2>Let's build something <span class="gradient-text">useful.</span></h2>
+            <p>I'm open to internship and software development opportunities. Have a project or opportunity in mind? Let's connect.</p>
+            <div class="contact-links">
+              <a href="mailto:nikitamall8127@gmail.com">✉ nikitamall8127@gmail.com</a>
+              <a href="tel:+91707987527">☎ +91 707987527</a>
+              <a href="https://github.com/Nikitamall" target="_blank" rel="noreferrer">◉ github.com/Nikitamall</a>
+              <a href="https://www.linkedin.com/in/nikita-mall-81" target="_blank" rel="noreferrer">in linkedin.com/in/nikita-mall-81</a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>Name<input type="text" id="name" placeholder="Your name" required></label>
+            <label>Email<input type="email" id="email" placeholder="you@example.com" required></label>
+            <label>Message<textarea id="message" rows="5" placeholder="Tell me about your opportunity..." required></textarea></label>
+            <button class="btn btn-primary" type="submit">Send Message <span>↗</span></button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+     
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <p class="section-kicker">PROJECT DETAILS</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="modal-tech" id="modalTech"></div>
+      <div class="modal-features" id="modalFeatures"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
